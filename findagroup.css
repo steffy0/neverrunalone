@@ -18,6 +18,7 @@
   padding:10px;
   border:solid;
   width:100%;
+  position: fixed
   }
 
 .topnav a { 
@@ -28,6 +29,7 @@
   width:100%;
   padding: 10px 245px;
   padding-right:300px;
+  position: fixed
   }
 
 .topnav a:hover {

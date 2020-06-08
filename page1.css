@@ -14,9 +14,10 @@ body {
   font-family:sans-serif;
   text-decoration: none;
   font-size: 17px;
+  
   width:100%;
-  padding: 10px 210px;
-padding-right:230px;
+  padding: 10px 245px;
+  padding-right:300px;
   }
 
 .topnav a:hover {

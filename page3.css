@@ -1,0 +1,83 @@
+body {
+  background-color: white;
+}
+ /*navigation bar at the top*/
+.topnav {
+  background-color:white;
+  padding:10px;
+  border:solid;
+  width:98.5%;
+  }
+
+.topnav a {  
+  color: black;
+  font-family:sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+  width:100%;
+  padding: 10px 230px;
+  padding-right:252px;
+  }
+
+.topnav a:hover {
+  background-color: lightgrey;
+  width:100%;
+   }
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  text-align:center;
+  color:black;
+  }
+/* page heading */
+.header {
+  border: solid;
+  text-align:center;
+  padding-top:0px;
+  background-color:lightseagreen;
+  width:100%;
+}
+
+/*styling the social media icon-hyperlinks together*/
+.socialmedias {
+  text-align: center;
+  padding-top: 40px;
+  }
+/*styling the space between the social media icons*/
+.socialmedias a {
+  padding: 15px;
+}
+
+/* email information */
+h4 {
+  text-align:center;
+}
+footer {
+  background-color:lightseagreen;
+  color:black;
+  font-family:sans-serif;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+  }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+   .header, .topnav a, .socialmedias .socialmedias a {
+    width: 100%;
+  }
+  
+  .topnav {
+    width:94.5%;
+    font-size: 14px;
+  }
+  
+  .topnav a{
+    text-align:center;
+    padding: 0px 10px;
+    font-size: 14px;
+  }

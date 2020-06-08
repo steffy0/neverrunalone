@@ -53,11 +53,16 @@ h1 {
   padding: 15px;
 }
 
+.submissionform {
+  text-align: center;
+}
+
 /* email information */
 h4 {
   text-align:center;
   font-family:sans-serif;
 }
+
 footer {
   background-color:lightseagreen;
   color:black;

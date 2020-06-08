@@ -59,6 +59,7 @@ h1 {
 .submissionform {
   text-align: center;
   font-family:sans-serif;
+  padding-top: 5px;
 }
 
 /* email information */
